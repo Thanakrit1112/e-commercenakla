@@ -1,0 +1,240 @@
+html,body{
+background: #d7e3e3;
+margin:0;  /*ทำให้ชิดขอบบน*/
+padding:0; /*ทำให้ชิดขอบบนครับ*/
+height: 100%;
+}
+#top{ /* สร้าง id head    */
+background:#14908f; /*เป็นสีพื้นหลังของ header   */
+width:100%; /*ความกว้างของ header */
+height:135px; /*ความสูงของ header */
+}
+#bottom{ /* สร้าง id head    */
+    clear: both;
+    margin: 0 auto;
+    background-color: #14908f;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    z-index: 0;
+
+}
+.curved {
+
+
+-moz-border-radius:10px;
+
+
+-webkit-border-radius:10px;
+
+
+behavior:url(border-radius.htc);
+background:#fff;
+
+
+}
+
+#apDiv {
+    margin:0 auto;
+    width: 100%;
+    height:100%;
+    z-index:0;
+
+}
+#apDiv1 {
+    margin:0 auto;
+    width: 974px;
+    /*height:800px;*/
+    z-index:1;
+        height: auto !important;
+    min-height: 100%;
+    height: 100%;
+     clear: both;
+}
+#apDiv2 {
+    position: absolute;
+    width: 974px;
+    height: 99px;
+    z-index: 1;
+    top: 16px;
+}
+#apDiv3 {
+    position: absolute;
+    width: 974px;
+    height: 69px;
+    z-index: 7;
+    top: 105px;
+     clear: both;
+
+}
+#apDiv4 {
+    position: absolute;
+    width: 200px;
+    height: 498px;
+    z-index: 3;
+    top: 80px;
+    background-color: #33CCCC;
+}
+#apDiv5 {
+    position: relative;
+    width: 940px;
+    /*height: 855px;*/
+    z-index: 4;
+  margin-top:45px;
+    background-color: #FFFFCC;
+    left: 17px;
+            height: auto !important;
+    min-height: 100%;
+    height: 100%;
+     clear: both;
+
+}
+#apDiv6 {
+    position: absolute;
+    width: 940px;
+    height: 81px;
+    z-index: 5;
+    left: 67px;
+    top: 1022px;
+}
+
+#apDiv7 {
+    position:absolute;
+    width:135px;
+    height:116px;
+    z-index:1;
+    left: 31px;
+    top: 19px;
+}
+#apDiv8 {
+    position:absolute;
+    width:149px;
+    height:115px;
+    z-index:7;
+    left: 28px;
+    top: 157px;
+}
+#apDiv9 {
+    position: absolute;
+    width: 918px;
+    height: 280px;
+    z-index: 1;
+    left: 11px;
+    top: 6px;
+
+}
+#apDiv10 {
+    position: absolute;
+    width: 650px;
+    height: 63px;
+    z-index: 1;
+    left: 280px;
+    top: 7px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#apDiv10 a{
+    text-decoration:none;
+    color:#FFF;
+}
+
+#apDiv10 a:hover,a:visited{
+    text-decoration:underline;
+    color:#FFF;
+}
+
+#apDiv11 {
+    position: absolute;
+    width: 883px;
+    height: 35px;
+    z-index: 7;
+    top: 14px;
+    left: 1px;
+
+}
+
+#apDiv12 {
+    position: absolute;
+    width: 918px;
+    height: 502px;
+    z-index: 4;
+    left: 13px;
+    top: 328px;
+}
+#apDiv13 {
+    position: absolute;
+    width: 700px;
+    height: 270px;
+    z-index: 1;
+    left: 0px;
+    top: 6px;
+
+}
+#apDiv14 {
+    position: absolute;
+    width: 200px;
+    height: 292px;
+    z-index: 1;
+    left: 716px;
+    top: 10px;
+    background-color: #FFFFFF;
+}
+#input{
+
+text-decoration:none;
+font-family:Tahoma, Geneva, sans-serif;
+color: #14908f;
+font-size:14px;
+font-weight: bold;
+margin:10px 0 10px 0;
+padding: 5px 10px 5px 10px;
+}
+
+#input:hover{
+
+text-decoration:none;
+
+background:#ffffff;
+
+font-family:Tahoma, Geneva, sans-serif;
+
+font-size:14px;
+
+padding: 5px 10px 5px 10px;
+
+color: #14908f;
+
+font-weight: bold;
+
+-moz-border-radius: 6px;
+
+-webkit-border-radius: 6px;
+
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+
+border-bottom: 1px solid rgba(0,0,0,0.25);
+
+cursor: pointer;
+
+border-left:none;
+
+border-top:none;
+
+margin:10px 0 10px 0;
+
+}
+
+ul#nav {margin: 0 0 0 200px;}
+ul.drop a { display:block; color: #3EA99F; font-family: Verdana; font-size: 14px; text-decoration: none; font-weight:bold;}
+ul.drop, ul.drop li, ul.drop ul { list-style: none; margin: 0; padding: 0; border: 0px solid #fff; background: none; color: #fff;}
+ul.drop { position: relative; z-index: 597; float: left; }
+ul.drop li { float: left; line-height: 1.3em; vertical-align: middle; zoom: 1; padding: 5px 10px; }
+ul.drop li.hover, ul.drop li:hover { position: relative; z-index: 599; cursor: default; background: #1e7c9a; }
+ul.drop ul { visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 598; width: 195px; background: #FFF; border: 1px solid #fff; }
+ul.drop ul li { float: none; }
+ul.drop ul ul { top: -2px; left: 100%; }
+ul.drop li:hover > ul { visibility: visible }
